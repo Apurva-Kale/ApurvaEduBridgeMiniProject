@@ -1,0 +1,17 @@
+create database edubridge;
+
+use edubridge;
+
+
+create table users(
+userid varchar(20)Not null,
+password varchar(20)Not null,
+
+fname varchar(20)Not null,
+lname varchar(20)Null null,
+email varchar(20)Not null,
+PRIMARY KEY (userid)); 
+
+desc users;
+
+select * from users;
